@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gatemantra"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:debuggable="false">
+        <activity
+            android:name="com.gatemantra.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.gatemantra.HomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.gatemantra.TestHomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+         <activity
+            android:name="com.gatemantra.QstnActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.gatemantra.TestEndActivity"
+            android:label="@string/app_name" >
+        </activity>
+       <activity
+            android:name="com.gatemantra.MaterialsHomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.gatemantra.NewsHomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.gatemantra.SyllabusActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.gatemantra.Material"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.gatemantra.NewsActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+ <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

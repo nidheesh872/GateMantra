@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GateMantra</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="gatemantra">Gate Mantra</string>
+	<string name="materials">Study Materials</string>
+	<string name="test">Mock Tests</string>
+	<string name="news">News</string>
+	<string name="about">About Us</string>
+	<string name="sync">Sync</string>
+	<string name="gatemantralogodesc">Gate Mantra</string>
+	
+<!-- 	Test Home Subjects if any update update in testendactivity getsub also-->
+<string name="randomtest">Random Tests</string>
+<string name="engmath">Engineering Mathematics</string>
+<string name="digital">Digital Logic</string>
+<string name="comptrorganisation">Computer Organization and Architecture</string>
+<string name="datastructures">Data Structures</string>
+<string name="algorithms">Algorithms</string>
+<string name="toc">Theory of Computation</string>
+<string name="compiler">Compiler Design</string>
+<string name="os">Operating System</string>
+<string name="db">Databases</string>
+<string name="sweng">Software Engineering</string>
+<string name="netwrks">Computer Networks</string>
+<string name="web">Web technologies</string>
+	
+
+<!-- Question xml -->
+<string name="next">Next</string>
+<string name="prev">Prev</string>
+<string name="endtest">End Test</string>
+
+<!-- Test End activity -->
+<string name="home">Home</string>
+<string name="tryagain">Try Again</string>
+
+<!-- Materials home -->
+<string name="samplematerial">Sample Material</string>
+<string name="syllabus">Syllabus</string>
+<string name="prepare">Start Preparing</string>
+
+
+<!-- Syllabus -->
+<string name="syl_maths">Mathematical Logic: \nPropositional Logic; First Order Logic.\n\nProbability: \nConditional Probability; Mean, Median, Mode and Standard Deviation; Random Variables; Distributions; uniform, normal, exponential, Poisson, Binomial.\n\nSet Theory and Algebra:\nSets; Relations; Functions; Groups; Partial Orders; Lattice; Boolean Algebra.\n\nCombinatory: Permutations; Combinations; Counting; Summation; generating functions; recurrence relations; asymptotics.\n\nGraph Theory: \nConnectivity; spanning trees; Cut vertices and edges; covering; matching; independent sets; Colouring; Planarity; Isomorphism.\n\nLinear Algebra: \nAlgebra of matrices, determinants, systems of linear equations, Eigen values and Eigen vectors.\n\nNumerical Methods: \nLU decomposition for systems of linear equations; numerical solutions of non-linear algebraic equations by Secant, Bisection and Newton-Raphson Methods; Numerical integration by trapezoidal and Simpson’s rules.\n\nCalculus: \nLimit, Continuity and differentiability, Mean value Theorems, Theorems of integral calculus, evaluation of definite and improper integrals, Partial derivatives, Total derivatives, maxima and minima.\n</string>
+
+<string name="syl_dig">Digital Logic: \nLogic functions, Minimization, Design and synthesis of combinational and sequential circuits; Number representation and computer arithmetic (fixed and floating point).</string>
+
+<string name="syl_cod">Computer Organization and Architecture: \nMachine instructions and addressing modes, ALU and data-path, CPU control design, Memory interface, I/O interface (Interrupt and DMA mode), Instruction pipelining, Cache and main memory, Secondary storage.</string>
+<string name="syl_datastructure">Programming and Data Structures: \nProgramming in C; Functions, Recursion, Parameter passing, Scope, Binding; Abstract data types, Arrays, Stacks, Queues, Linked Lists, Trees, Binary search trees, Binary heaps.</string>
+<string name="syl_algorithms">Algorithms: \nAnalysis, Asymptotic notation, Notions of space and time complexity, Worst and average case analysis; Design: Greedy approach, Dynamic programming, Divide-and-conquer; Tree and graph traversals, Connected components, Spanning trees, Shortest paths; Hashing, Sorting, Searching. Asymptotic analysis (best, worst, average cases) of time and space, upper and lower bounds, Basic concepts of complexity classes – P, NP, NP-hard, NP-complete.</string>
+<string name="syl_toc">Theory of Computation: \nRegular languages and finite automata, Context free languages and Push-down automata, Recursively enumerable sets and Turing machines, Undecidability.</string>
+<string name="syl_compiler">Compiler Design: \nLexical analysis, Parsing, Syntax directed translation, Runtime environments, Intermediate and target code generation, Basics of code optimization.</string>
+<string name="syl_os">Operating System: \nProcesses, Threads, Inter-process communication, Concurrency, Synchronization, Deadlock, CPU scheduling, Memory management and virtual memory, File systems, I/O systems, Protection and security.</string>
+<string name="syl_db">Databases: \nER-model, Relational model (relational algebra, tuple calculus), Database design (integrity constraints, normal forms), Query languages (SQL), File structures (sequential files, indexing, B and B+ trees), Transactions and concurrency control.</string>
+<string name="syl_softwareengg">Information Systems and Software Engineering: \ninformation gathering, requirement and feasibility analysis, data flow diagrams, process specifications, input/output design, process life cycle, planning and managing the project, design, coding, testing, implementation, maintenance.</string>
+<string name="syl_networks">Computer Networks: \nISO/OSI stack, LAN technologies (Ethernet, Token ring), Flow and error control techniques, Routing algorithms, Congestion control, TCP/UDP and sockets, IP(v4), Application layer protocols (icmp, dns, smtp, pop, ftp, http); Basic concepts of hubs, switches, gateways, and routers. Network security – basic concepts of public key and private key cryptography, digital signature, firewalls.</string>
+<string name="syl_web">Web technologies: \nHTML, XML, basic concepts of client-server computing.</string>
+
+<!-- Strat Preparing -->
+
+<string name="prepare_title">Strat Preparing</string>
+<string name="prepare_content">GATE (Graduate Aptitude Test In Engineering) is an important, all India  examination for graduate engineers.  The GATE score is used for admissions to post-graduate engineering programmes (M.E., M.Tech, direct Ph.D.) in the best engineering colleges and institutes in the country (IITs, IISc, NITs,…) with financial assistance provided by  MHRD and other Government agencies. Also some prestigious public sector units, like BARC, selects engineers for employment based on the performance in GATE.
+There is tight competition for seat to Master’s degree courses, so you have to prepare well for the GATE examination.  The exam tests the basic knowledge in your subject of engineering degree course. Problems are based on the fundamentals and basics of the subjects. So first, be thorough with fundamentals which are specified in GATE Syllabus. It will be good if you prepare short notes for each subjects. The second step is to practice. Solve as many problems you can, like previous year’s question papers, mock test papers and other test papers. This will also help in time management and to understand the format of the question paper. Surely doubt arises when you solve questions, share it with your friends and teachers. Also help your friends in problem solving. Best wishes…</string>
+
+<!-- News Home -->
+<string name="samplenews">Sample News</string>
+<string name="importantdates">GATE 2014: Important Dates</string>
+
+
+<!-- News -->
+<string name="news_date">Date</string>
+<string name="importance">Importance</string>
+<string name="resultdate">28th March 2014</string>
+<string name="resultdata">Announcement of Results on the Online Application Website</string>
+<string name="examdate">1st February - 2nd March 2014</string>
+<string name="examdata">GATE 2014 Online Examination\nForenoon: 9.00 AM to 12.00 Noon\nAfternoon: 2.00 PM to 5.00 PM</string>
+<string name="mocktest">3rd January 2014</string>
+<string name="mocktestdata">Static Mock Test using GATE 2013 papers (for practice purposes only)</string>
+<string name="admitcard">18th December 2013</string>
+<string name="admitcarddata">Availability of Admit Card on the GOAPS website</string>
+<string name="lastdateforapplication">3rd October 2013</string>
+<string name="lastdateforapplicationdata">Last date for Submission of Online Application through Website</string>
+<string name="onlineapplicationstart">2nd September 2013</string>
+<string name="onlineapplicationstartdata">GATE Online Application Processing System (GOAPS) Website Opens: Enrolment, Application Filling, Application Submission</string>
+
+
+</resources>
+

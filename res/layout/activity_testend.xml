@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background">
+<RelativeLayout
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+<ImageView
+        android:id="@+id/gatemantratitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logosmall" 
+        android:background="@drawable/rectforgate"
+        android:contentDescription="@string/gatemantralogodesc"/>
+
+
+<TextView  
+        android:id="@+id/testname"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/gatemantratitle"
+        android:layout_centerHorizontal="true"
+        />
+<TextView  
+        android:id="@+id/testcomment"
+        android:textSize="20sp"
+        android:layout_below="@+id/testname"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+<TextView  
+        android:id="@+id/testscore"
+        android:textSize="20sp"
+        android:layout_below="@+id/testcomment"
+        android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+ <Button
+            android:id="@+id/home" 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/tryagain"
+    		android:textAppearance="?android:attr/textAppearanceLarge"
+    		android:text="@string/home"
+    		android:textColor="#FFFFFF"
+    		android:onClick="goHome" 
+    		android:background="@drawable/bluebutton"
+    		android:gravity="center"
+    		android:shadowColor="#000000"
+    		android:shadowDx="1"
+    		android:shadowDy="1"
+    		android:shadowRadius="2"
+    		android:layout_margin="1dp"/>
+  <Button
+            android:id="@+id/tryagain" 
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_below="@+id/testscore"
+    		android:textAppearance="?android:attr/textAppearanceLarge"
+    		android:text="@string/tryagain"
+    		android:textColor="#FFFFFF"
+    		android:onClick="tryAgain" 
+    		android:background="@drawable/bluebutton"
+    		android:gravity="center"
+    		android:shadowColor="#000000"
+    		android:shadowDx="1"
+    		android:shadowDy="1"
+    		android:shadowRadius="2"
+    		android:layout_margin="1dp"/>
+
+</RelativeLayout>
+</ScrollView>

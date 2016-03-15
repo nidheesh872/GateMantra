@@ -1,0 +1,193 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background">
+    
+<RelativeLayout
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+    <ImageView
+        android:id="@+id/gatemantralogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logosmall" 
+        android:background="@drawable/rectforgate"/>
+<!--     <TextView   -->
+<!--         android:text="@string/gatemantra"  -->
+<!--         android:id="@+id/gatemantratitle" -->
+<!--         android:textColor="#FFFFFF" -->
+<!--         android:textSize="50dp" -->
+<!--         android:layout_width="wrap_content"  -->
+<!--     	android:layout_height="wrap_content" -->
+<!--         android:gravity="center" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:background="@drawable/rectforgate" /> -->
+    
+    <TextView
+        android:id="@+id/materials"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_below="@id/gatemantralogo"
+        android:background="@drawable/oval_purple_gradient"
+        android:text="@string/materials"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+    	android:shadowDx="1"
+    	android:shadowDy="1"
+    	android:shadowRadius="2"
+    	 />
+     <TextView
+        android:id="@+id/tests"
+        android:text="@string/test"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/materials"
+        android:background="@drawable/oval_green_gradient"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+    	android:shadowDx="1"
+    	android:shadowDy="1"
+    	android:shadowRadius="2" />
+     
+     <TextView
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tests"
+        android:background="@drawable/oval_orange_gradient"
+        android:text="@string/news"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+    	android:shadowDx="1"
+    	android:shadowDy="1"
+    	android:shadowRadius="2" />
+     
+     
+     <TextView
+        android:id="@+id/sync"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/news"
+        android:background="@drawable/oval_blue_gradient"
+        android:text="@string/sync"
+        android:textColor="#FFFFFF" 
+		android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+    	android:shadowDx="1"
+    	android:shadowDy="1"
+    	android:shadowRadius="2" />
+     
+<!--       <TextView -->
+<!--         android:id="@+id/about" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:gravity="right" -->
+        
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/news" -->
+<!--         android:background="@drawable/oval_blue_gradient" -->
+<!--         android:text="@string/about"  -->
+<!--         android:textSize="20dp"/> -->
+</RelativeLayout>
+</ScrollView>
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <TableLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:layout_width="match_parent" -->
+<!--     android:layout_height="match_parent"  -->
+<!--     android:background="@drawable/main_background"> -->
+    
+<!-- <TableRow  -->
+<!--     android:layout_width="match_parent"  -->
+<!--     android:layout_height="wrap_content" -->
+<!--   	android:gravity="center" -->
+<!--     > -->
+    
+<!--     <TextView   -->
+<!--         android:text="@string/gatemantra"  -->
+<!--         android:textColor="#FFFFFF" -->
+<!--         android:textSize="50dp" -->
+<!--         android:layout_width="wrap_content"  -->
+<!--     	android:layout_height="wrap_content" -->
+<!--         android:gravity="center" -->
+<!--         android:background="@drawable/rectforgate" /> -->
+    
+<!-- </TableRow> -->
+<!-- <TableRow android:layout_width="fill_parent" -->
+<!--     android:layout_height="fill_parent"> -->
+    
+<!--     <RelativeLayout -->
+<!--     android:layout_width="fill_parent" -->
+<!--     android:layout_height="fill_parent"> -->
+ <!--     android:background="#33000000"> --> 
+    
+    
+<!--     <TextView -->
+<!--         android:id="@+id/ovalmaterial" -->
+<!--         android:layout_margin="10dp" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:background="@drawable/ovalpurple" -->
+<!--         android:text="@string/materials" />" -->
+     
+<!--      <TextView -->
+<!--         android:id="@+id/ovaltest" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:gravity="right" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/ovalmaterial" -->
+<!--         android:background="@drawable/oval_green_gradient" -->
+<!--         android:text="@string/test" />" -->
+     
+<!--      <TextView -->
+<!--         android:id="@+id/ovalnews" -->
+<!--         android:layout_margin="10dp" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/ovaltest" -->
+<!--         android:background="@drawable/oval_orange_gradient" -->
+<!--         android:text="@string/news" />" -->
+     
+<!--       <TextView -->
+<!--         android:id="@+id/ovalabout" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:gravity="right" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@id/ovalnews" -->
+<!--         android:background="@drawable/oval_blue_gradient" -->
+<!--         android:text="@string/about" />" -->
+<!-- </RelativeLayout> -->
+
+        
+    
+    
+<!-- </TableRow> -->
+    
+    
+<!-- </TableLayout> -->

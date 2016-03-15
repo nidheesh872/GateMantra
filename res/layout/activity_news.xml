@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/main_background">
+	<LinearLayout android:layout_width="match_parent"
+		android:orientation="vertical" android:layout_weight="1" android:layout_height="match_parent">
+		<TableLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+			<TableRow style="@style/HeaderRow">
+				<TextView style="@style/HeaderText" android:text="@string/news_date"></TextView>
+				<TextView style="@style/HeaderText" android:layout_weight="1" android:text="@string/importance"></TextView>
+				
+			</TableRow>
+			<TableRow style="@style/BodyRow">
+				<TextView style="@style/BodyText" android:layout_height="0dp" android:text="@string/onlineapplicationstart"></TextView>
+				<TextView style="@style/BodyText" android:layout_weight="1" android:layout_height="0dp" android:text="@string/onlineapplicationstartdata"></TextView>
+				
+			</TableRow>
+			<TableRow style="@style/BodyRow">
+				<TextView style="@style/BodyText" android:layout_height="0dp" android:text="@string/lastdateforapplication"></TextView>
+				<TextView style="@style/BodyText" android:layout_weight="1" android:layout_height="0dp" android:text="@string/lastdateforapplicationdata"></TextView>
+				</TableRow>
+			<TableRow style="@style/BodyRow">
+				<TextView style="@style/BodyText" android:layout_height="0dp" android:text="@string/admitcard"></TextView>
+				<TextView style="@style/BodyText" android:layout_weight="1" android:layout_height="0dp" android:text="@string/admitcarddata"></TextView>
+				</TableRow>
+			<TableRow style="@style/BodyRow">
+				<TextView style="@style/BodyText" android:layout_height="0dp" android:text="@string/mocktest"></TextView>
+				<TextView style="@style/BodyText" android:layout_weight="1" android:layout_height="0dp" android:text="@string/mocktestdata"></TextView>
+				</TableRow>
+			<TableRow style="@style/BodyRow">
+				<TextView style="@style/BodyText" android:layout_height="0dp" android:text="@string/examdate"></TextView>
+				<TextView style="@style/BodyText" android:layout_weight="1" android:layout_height="0dp" android:text="@string/examdata"></TextView>
+			</TableRow>
+			<TableRow style="@style/BodyRow">
+				<TextView style="@style/BodyText" android:layout_height="0dp" android:text="@string/resultdate"></TextView>
+				<TextView style="@style/BodyText" android:layout_weight="1" android:layout_height="0dp" android:text="@string/resultdata"></TextView>
+			</TableRow>
+			
+		</TableLayout>
+		<ScrollView android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TableLayout android:layout_height="wrap_content"
+				android:layout_width="match_parent">
+				<TableRow style="@style/HeaderRow">
+					<TextView android:text="@string/news_date" style="@style/HeaderText" android:layout_height="0dp" />
+					<TextView android:text="@string/importance" style="@style/HeaderText"
+						android:layout_weight="1" android:layout_height="0dp" />
+					
+				</TableRow>
+				<TableRow style="@style/BodyRow">
+					<TextView android:text="@string/onlineapplicationstart" style="@style/BodyText" />
+					<TextView android:text="@string/onlineapplicationstartdata" style="@style/BodyText"
+						android:layout_weight="1" />
+					
+				</TableRow>
+				<TableRow style="@style/BodyRow">
+					<TextView android:text="@string/lastdateforapplication" style="@style/BodyText" />
+					<TextView android:text="@string/lastdateforapplicationdata" style="@style/BodyText"
+						android:layout_weight="1" />
+					
+				</TableRow>
+				<TableRow style="@style/BodyRow">
+					<TextView android:text="@string/admitcard" style="@style/BodyText" />
+					<TextView android:text="@string/admitcarddata" style="@style/BodyText"
+						android:layout_weight="1" />
+					
+				</TableRow>
+				<TableRow style="@style/BodyRow">
+					<TextView android:text="@string/mocktest" style="@style/BodyText" />
+					<TextView android:text="@string/mocktestdata" style="@style/BodyText"
+						android:layout_weight="1" />
+					
+				</TableRow>
+				<TableRow style="@style/BodyRow">
+					<TextView android:text="@string/examdate" style="@style/BodyText" />
+					<TextView android:text="@string/examdata" style="@style/BodyText"
+						android:layout_weight="1" />
+					
+				</TableRow>
+				<TableRow style="@style/BodyRow">
+					<TextView android:text="@string/resultdate" style="@style/BodyText" />
+					<TextView android:text="@string/resultdata" style="@style/BodyText"
+						android:layout_weight="1" />
+				
+				</TableRow>
+				
+			</TableLayout>
+		</ScrollView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+		android:orientation="vertical" android:layout_weight="1" android:layout_height="match_parent">
+		<LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="match_parent"></LinearLayout>
+	</LinearLayout>
+</LinearLayout>

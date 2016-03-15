@@ -1,0 +1,81 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background">
+<TableLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <TableRow 
+	    android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:gravity="center_horizontal"> 
+    <ImageView
+        android:id="@+id/gatemantratitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logosmall" 
+        android:background="@drawable/rectforgate"/>
+    </TableRow>
+    
+    <TableRow 
+	    android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:gravity="center_horizontal"> 
+		
+        <TextView 
+            android:id="@+id/prepare_title" 
+            android:text="@string/prepare_title"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="start"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="textStart"
+            />
+        
+        </TableRow>
+        <TableRow 
+	    android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:gravity="center_horizontal"> 
+		
+        <TextView 
+            android:id="@+id/prepare_content" 
+            android:text="@string/prepare_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:padding="20dip"
+            android:gravity="start"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAlignment="textStart"
+            />
+        
+        </TableRow>
+        <TableRow 
+	    android:layout_height="wrap_content" 
+        android:layout_width="wrap_content" 
+        android:gravity="center_horizontal"> 
+		
+        <ImageView
+        android:id="@+id/prepare_img1"
+        android:layout_width="match_parent"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/prepare_img"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="how to prepare" />
+
+        
+        </TableRow>
+        
+
+    
+</TableLayout>
+</ScrollView>
